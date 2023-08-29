@@ -14,12 +14,15 @@ This project leverages various Symfony components and extensions, including `Bro
 - Make (already installed on most Linux distributions and macOS)
 
 ## Install
-- #### Copy the directory from source code
+- #### Copy the directory from source code or clone the project
+```     
+git clone git@github.com:alpernuage/adventurer.git
+```
 
 - Then `cd adventurer`
 
 - The SERVER_NAME value is `localhost` by default.  
-If you want, add SERVER_NAME value, located in `.env.file`, in `/etc/hosts` in order to match your docker daemon
+If you want, add SERVER_NAME value, located in `.env` file, in `/etc/hosts` in order to match your docker daemon
 machine IP (it should be 127.0.0.1) or use a tool like `dnsmasq` to map the docker daemon to a local tld
 (e.g. `.local`).
 
