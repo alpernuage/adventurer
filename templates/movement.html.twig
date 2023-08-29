@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movement Page</title>
+</head>
+<body>
+<h1>Movement Page</h1>
+
+{{ form_start(form) }}
+{{ form_end(form) }}
+
+{% if result is not null %}
+    <h2>Result:</h2>
+    <p>Final coordinates: Y = {{ result.y }}, X = {{ result.x }}</p>
+{% endif %}
+</body>
+</html>
